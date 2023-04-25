@@ -1,0 +1,22 @@
+using System;
+
+class Program {
+  public static void Main (string[] args) 
+ {  double a;
+            double b;
+            double z;
+
+            Console.Write("Informe o valor de x:");
+            a = double.Parse(Console.ReadLine());
+
+            Console.Write("Informe o valor de y:");
+            b = double.Parse(Console.ReadLine());
+
+            z = Math.Pow(a, b);
+
+            Console.WriteLine("a potencia é: {0}", z); 
+
+            
+    
+  }
+}
